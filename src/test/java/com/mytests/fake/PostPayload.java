@@ -1,0 +1,13 @@
+package com.mytests.fake;
+
+public class PostPayload {
+    private Integer userId;
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+}
